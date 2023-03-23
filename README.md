@@ -15,4 +15,7 @@ I will revisit this project in the future to style it up with CSS.
 
 
 7.02.2023
-Added some basic CSS style. Will revisit again.
+Added some basic CSS style. Will revisit again. 
+
+22.03.2023
+Adding more CSS - Flexbox.
