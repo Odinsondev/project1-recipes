@@ -10,9 +10,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
+}
 
-    border: 1px solid red;
+.header-right a {
+    color: rgb(199, 187, 187);
+    margin-right: 10px;
 }
 
 .button1 {
@@ -25,7 +28,8 @@ a {
     text-decoration: none;
 }
 
-.class1 {
+.class1,
+.content3 {
     background-color: rgb(181, 161, 161);
     text-align: center;
     padding-top: 5px;
@@ -38,7 +42,18 @@ a {
     padding-bottom: 20px;
 }
 
-.class3 {
+.content3-bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image1,
+.image2,
+.image3 {
+    border-radius: 4px;
+}
+
+.class4 {
     background-color: rgb(181, 161, 161);
     padding-left: 560px;
     list-style-position: inside;
