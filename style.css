@@ -6,11 +6,15 @@ body {
 
 header {
     height: 40px;
-    background-color: rgb(79, 46, 82);
+    background-color: rgb(65, 6, 85);
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .header-right a {
@@ -28,7 +32,7 @@ a {
     text-decoration: none;
 }
 
-.class1,
+.content1,
 .content3 {
     background-color: rgb(181, 161, 161);
     text-align: center;
@@ -36,29 +40,84 @@ a {
     padding-bottom: 5px;
 }
 
-.class2 {
-    text-align: center;
+.content1 {
+    margin: 40px 0 0 0;
+}
+
+.content2 {
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content2.recipe1 {
+    justify-content: center;
+    gap: 20px;
+}
+
+.content2-right {
+    max-width: 400px;
+    align-items: center;
+}
+
+.content2-right.recipe1 {
+    max-width: 400px;
+    align-items: center;
+    background-color:  rgb(181, 161, 161);
+    padding: 0 20px;
+    border-radius: 4px;
+    align-self: stretch;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text-left {
+    text-align: end;
+}
+
+.content3-top {
+    margin-bottom: 50px;
 }
 
 .content3-bottom {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
+.image0,
 .image1,
 .image2,
 .image3 {
     border-radius: 4px;
+    display: block;
 }
 
-.class4 {
+.content4 {
+    display: flex;
+}
+
+.content4-empty {
     background-color: rgb(181, 161, 161);
-    padding-left: 560px;
+    width: 100px;
+    align-self: stretch;
+    flex: 1;
+}
+
+.content4-steps {
+    background-color: rgb(181, 161, 161);
     list-style-position: inside;
     padding-top: 1px;
     padding-bottom: 1px;
+    flex: 1;
+    flex-basis: 400px;
 }
 
 button {
@@ -66,4 +125,13 @@ button {
     background-color: rgb(245, 246, 228);
     border-style: none;
     border-radius: 4px;
+}
+
+footer {
+    height: 40px;
+    background-color: rgb(65, 6, 85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(199, 187, 187);
 }
